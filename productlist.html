@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Product List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <style type="text/css">
+        body {
+          background-color: peachpuff !important;
+        }
+        h2{
+            background-color: goldenrod !important;
+            padding: 5px !important;            
+        }
+        footer{
+          margin-top: 10px !important;
+          background-color: lightgoldenrodyellow !important;
+          color: grey !important;
+          font-size: 11px !important;
+        }
+        .footer-bottom{
+          background-color: lightyellow !important;
+        }
+        </style>
+    </head>
+    <body>
+      <!-- navbar -->
+      <ul class="nav nav-pills" style="background-color: rgb(240, 215, 158); position: fixed; width: 100%; top: 0;">
+        <li class="nav-item">
+          <a class="nav-link active" style="background-color: rgb(201, 172, 100); color: black;" aria-current="page" href="index.html">DHiNE's JEWELS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: black;" data-bs-toggle="dropdown" href="productlist.html" role="button" aria-expanded="false">Collections</a>
+          <ul class="dropdown-menu" style="background-color: rgb(228, 201, 167);">
+            <li><a class="dropdown-item" href="productpage.html">Necklace</a></li>
+            <li><a class="dropdown-item" href="earrings.html">Earrings</a></li>
+            <li><a class="dropdown-item" href="bracelet.html">Bracelets</a></li>
+            <li><a class="dropdown-item" href="rings.html">Rings</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" style="color: black;" href="productlist.html">Categories</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: black;" href="productpage.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: black;" href="aboutus.html">About Us</a>
+        </li>
+      </ul>
+
+      <div class="container-fluid">
+        <h2 class="title text-center" style="margin-top: 50px;">Jewelry Designs</h2>
+        
+        <div class="row justify-content-center" style="margin-top: 20px; margin-bottom: 10px;">
+          <div class="col-sm-4">
+              <div class="text-center" style="box-sizing: content-box; border-radius: 10px; border: 3px solid gold;">
+                  <a href="productpage.html"><img src="necklace.jpg" alt="Necklaces" style="height: 160px; width: 160px;"></a>
+                  <div>
+                    <h3 class="title" style="color: rgb(136, 100, 10);">Necklaces</h3>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="text-center" style="box-sizing: content-box; border-radius: 10px; border: 3px solid gold;">
+                  <a href="earrings.html"><img src="earrings.jpg" alt="Earrings" style="height: 160px; width: 160px;"></a>
+                  <div>
+                    <h3 class="title" style="color: rgb(136, 100, 10);">Earrings</h3>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center" style="margin-bottom: 10px;">
+          <div class="col-sm-4">
+            <div class="text-center" style="box-sizing: content-box; border-radius: 10px; border: 3px solid gold;">
+              <a href="bracelet.html"><img src="bracelet.jpg" alt="Bracelets" style="height: 160px; width: 160px;"></a>
+              <div>
+                <h3 class="title" style="color: rgb(136, 100, 10);">Bracelets</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="text-center" style="box-sizing: content-box; border-radius: 10px; border: 3px solid gold;">
+              <a href="rings.html"><img src="rings.jpg" alt="Rings" style="height: 160px; width: 160px;"></a>
+              <div>
+                <h3 class="title" style="color: rgb(136, 100, 10);">Rings</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        
+      </div>
+
+      <!-- footer -->
+      <footer id="footer">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col order-first">
+                        <div class="single-widget">
+                            <h6>Service</h6>
+                            <ul class="row nav nav-pills nav-stacked">
+                                <li><a href="aboutus.html">Contact Us</a></li>
+                                <li><a href="#">Order Status</a></li>
+                                <li><a href="#">FAQ’s</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="single-widget">
+                            <h6>Policies</h6>
+                            <ul class="row nav nav-pills nav-stacked">
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Refund Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col order-last">
+                        <div class="single-widget">
+                            <h6>About Us</h6>
+                            <ul class="row nav nav-pills nav-stacked">
+                                <li><a href="aboutus.html">Company Information</a></li>
+                                <li><a href="#">Copyright</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <p class="text-center">Copyright © 2021 DHiNE's JEWELS All rights reserved.</p>
+                </div>
+            </div>
+        </div>  
+    </footer>
+    
+    </body>
+</html>
